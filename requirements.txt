@@ -1,0 +1,22 @@
+# Core libraries
+numpy
+faiss-cpu
+tqdm
+
+# Sentence Embeddings
+sentence-transformers==2.2.2
+
+# Transformers for LLM (Flan-T5 or other Hugging Face models)
+transformers==4.44.2
+accelerate>=0.20.3
+torch>=2.2.0
+
+# Optional utilities
+scikit-learn
+pandas
+
+# For JSON / data handling
+ujson
+
+# If using Jupyter or notebooks
+ipykernel
