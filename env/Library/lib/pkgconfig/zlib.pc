@@ -1,0 +1,13 @@
+prefix=D:/FinGPT-RAG/env/Library
+exec_prefix=D:/FinGPT-RAG/env/Library
+libdir=D:/FinGPT-RAG/env/Library/lib
+sharedlibdir=D:/FinGPT-RAG/env/Library/lib
+includedir=D:/FinGPT-RAG/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
