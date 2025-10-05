@@ -13,6 +13,7 @@ torch>=2.2.0
 
 # Optional utilities
 scikit-learn
+tensorflow
 pandas
 
 # For JSON / data handling
